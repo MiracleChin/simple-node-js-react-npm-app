@@ -9,7 +9,7 @@ pipeline {
         stage('Build') { 
             steps {
                 echo 'building...'
-                sh 'echo "hi"' 
+                zsh 'npm install' 
             }
         }
     }
